@@ -363,6 +363,36 @@ img{
   align-self: center;
   margin-bottom: var(--mb-2);
 }
+/* ========== Menu Number Button ======= */
+.menu__counter{
+  text-align: center;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu__counter input{
+  width: 30px;
+  border: 0;
+  line-height: 20px;
+  font-size: 15px;
+  text-align: center;
+  background: #DA291C;
+  color: #fff;
+  appearance: none;
+  outline: 0;
+  border-radius: .3rem;
+}
+
+.menu__counter span {
+  display: block;
+  font-size: 25px;
+  padding: 0 10px;
+  cursor: pointer;
+  color: #DA291C;
+  user-select: none;
+}
 
 .menu__name, .menu__preci{
   font-weight: var(--font-semi-bold);

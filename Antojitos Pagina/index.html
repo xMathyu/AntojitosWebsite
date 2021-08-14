@@ -68,7 +68,7 @@
                         <!-- <a href="#" class="button">Explore history</a> -->
                     </div>
 
-                    <img src="assets/img/about.jpg" alt="" class="about__img">
+                    <img src="assets/img/Cociner.png" alt="" class="about__img">
                 </div>
             </section>
 
@@ -367,6 +367,11 @@
                 <div class="menu__container bd-grid">
                     <div class="menu__content">
                         <img src="assets\img\Platos\Platillo1.png" alt="" class="menu__img">
+                        <div class="menu__counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                          </div>
                         <h3 class="menu__name">Hamburguesa</h3>
                         <span class="menu__detail">Hamburguesa con chorizo y trozos broaster</span>
                         <span class="menu__preci">S/6</span>
@@ -374,18 +379,28 @@
                     </div>
 
                     <div class="menu__content">
-                        <img src="assets/img/plate2.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Salad with fish</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$12.00</span>
+                        <img src="assets\img\Platos\LomoSaltado.png" alt="" class="menu__img">
+                        <div class="menu__counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                          </div>
+                        <h3 class="menu__name">Lomo Saltado Clásco</h3>
+                        <span class="menu__detail">Carne de res, papas fritas, cebolla, arroz y más!</span>
+                        <span class="menu__preci">S/12</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     </div>
                     
                     <div class="menu__content">
-                        <img src="assets/img/plate3.png" alt="" class="menu__img">
-                        <h3 class="menu__name">Spinach salad</h3>
-                        <span class="menu__detail">Delicious dish</span>
-                        <span class="menu__preci">$9.50</span>
+                        <img src="assets\img\Platos\LomoSaltadoDePollo.png" alt="" class="menu__img">
+                        <div class="menu__counter">
+                            <span class="down" onClick='decreaseCount(event, this)'>-</span>
+                            <input type="text" value="1">
+                            <span class="up" onClick='increaseCount(event, this)'>+</span>
+                          </div>
+                        <h3 class="menu__name">Lomo Saltado de Pollo</h3>
+                        <span class="menu__detail">Pollo sancochado, papas fritas, cebolla y arroz</span>
+                        <span class="menu__preci">S/10</span>
                         <a href="#" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
                     
                     </div>
@@ -470,7 +485,7 @@
                 </div>
             </div>
 
-            <p class="footer__copy">&#169; 2021 Antojitos. Página creada por Mathyu Cardozo y Gustavo Florian</p>
+            <p class="footer__copy">&#169; 2021 Antojitos. Página creada por Mathyu Cardozo</p>
         </footer>
 
         <!--========== SCROLL REVEAL ==========-->
